@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+                <!-- NAVIGATION PAGE -->
+    <nav>
+        <img src="images/logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+                <!-- HOME PAGE -->
+    <section id="about-home">
+        <h2>Blogs</h2>
+    </section>
+
+    <section id="blog-container">
+        <div class="blogs">
+            <div class="post">
+                <img src="images/b1.jpg" alt="">
+                <h3>Learn Web Development The Way You Never Done Before</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo cum nam ea cupiditate architecto at dicta, eius ratione, esse dolore sequi perspiciatis illo consequatur natus atque magni itaque doloremque quod!</p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b2.jpg" alt="">
+                <h3>Daily Routine For A Coder</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo cum nam ea cupiditate architecto at dicta, eius ratione, esse dolore sequi perspiciatis illo consequatur natus atque magni itaque doloremque quod!</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b3.jpg" alt="">
+                <h3>Dive Into The Ocean Of RGB Codes..</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo cum nam ea cupiditate architecto at dicta, eius ratione, esse dolore sequi perspiciatis illo consequatur natus atque magni itaque doloremque quod!</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b4.png" alt="">
+                <h3>Python Crash Crouse For Beginners</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo cum nam ea cupiditate architecto at dicta, eius ratione, esse dolore sequi perspiciatis illo consequatur natus atque magni itaque doloremque quod!</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a href="#">Web Development</a>
+            <hr>
+            <a href="#">Web Design</a>
+            <hr>
+            <a href="#">App Development</a>
+            <hr>
+            <a href="#">Front End Development</a>
+            <hr>
+            <a href="#">Python Programming</a>
+            <hr>
+            <a href="#">Java Script Hacks</a>
+        </div>
+
+    </section>
+
+                    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Jobs</li>
+            <li>Varity Courses</li>
+            <li>One Step Payment</li>
+            <li>Relible</li>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Guides</h3>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You cant trust us. We only send promo offers, </p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This template is made by Aniket</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script>
+         $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+</html>

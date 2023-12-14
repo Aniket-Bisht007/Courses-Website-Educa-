@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+                <!-- NAVIGATION PAGE -->
+    <nav>
+        <img src="images/logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="images/b1.jpg" alt="">
+                <h3>Learn Web Development The Way You Never Done Before</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, repellendus tempora aliquid molestias, sint placeat expedita velit tenetur unde eaque ipsa consequuntur reiciendis voluptas deleniti doloribus facere maiores aut sequi.
+                <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, cumque dolorem maiores esse magnam, rem a saepe nemo vero ipsum odio laudantium in cum facere sunt accusamus quos mollitia, voluptatum id blanditiis perspiciatis dolorum. Sunt nulla praesentium doloremque nihil asperiores ullam iusto adipisci quod! Recusandae amet dolores corrupti ratione consectetur accusantium eligendi quasi, reiciendis voluptates, et placeat reprehenderit eius. Blanditiis!
+                <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut est iste temporibus, odit eos dicta fuga voluptate! Perspiciatis nesciunt, voluptas cumque consectetur nihil inventore incidunt molestiae quis necessitatibus unde molestias numquam minus facilis ex dolore voluptatem rem quos commodi voluptatibus. Quos porro, nulla illum odio rem inventore quae? Autem nemo, provident alias asperiores, aliquid quos fugiat voluptatibus, soluta distinctio amet laborum dolor earum ab iste debitis perferendis ducimus. Voluptates ducimus soluta laboriosam suscipit? Unde magnam totam non animi quia explicabo incidunt, ipsum dolorum sunt iusto porro laudantium qui officia beatae Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quaerat tenetur facere molestiae officiis inventore quod reprehenderit quos nemo quas rem, dolores atque sed. Sint totam adipisci praesentium consectetur quae.</p>
+                <a href="#">Read Next ?</a>
+            </div>
+        </div>
+
+    </section>
+
+                    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Jobs</li>
+            <li>Varity Courses</li>
+            <li>One Step Payment</li>
+            <li>Relible</li>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Guides</h3>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You cant trust us. We only send promo offers, </p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This template is made by Aniket</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script>
+         $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+</html>
